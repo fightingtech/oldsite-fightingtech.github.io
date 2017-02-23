@@ -64,6 +64,10 @@ header #logo img {
 header #navbar {
   display: none;
 }
+#vision-section a,
+#contact-section a{
+  color: white;
+}
 div#body {
   width: 100%;
 }
