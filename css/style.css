@@ -40,12 +40,14 @@ p {
 }
 
 #logo {
-  height: 150px;
+  position: fixed;
+  top:0px;
+  z-index: 5000;
+  width: calc(100% - 40px);
   padding: 20px;
 }
 #logo img{
-  width: 150px;
-  margin-left: calc(50% - 75px);
+  width: 100px;
 }
 header {
   top: 0px;
@@ -59,7 +61,6 @@ header #logo {
 header #logo img {
   width: 150px;
   margin: 10px;
-  margin-left: calc(50% - 75px);
 }
 header #navbar {
   display: none;
@@ -70,6 +71,7 @@ header #navbar {
 }
 div#body {
   width: 100%;
+  margin-top:170px;
 }
 div#body .page-section {
   padding: 20px;
@@ -166,7 +168,7 @@ div.bg-overlay{
     padding: 50px 20% 50px 20%;
   }
   div#body .page-section:nth-child(1) {
-    padding-top: 10px;
+    padding-top: 250px;
   }
   div#body #vision-section {
     padding-right: 45%;
@@ -185,10 +187,12 @@ div.bg-overlay{
     margin-left: 25px;
   }
   #logo {
-    height: 150px;
+    top: 30px;
+    left: 30px;
+
   }
   #logo img{
-    width: 150px;
+    width:150px;
     margin: auto;
   }
 
